@@ -1,5 +1,5 @@
 var project = require('./App');
 (async () => {
-var data = await project('alestor123/WEB-ENV')
+var data = await project(process.argv[2])
 console.log(data)
 })();
